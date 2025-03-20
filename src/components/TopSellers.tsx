@@ -38,7 +38,7 @@ const TopSellers = () => {
     );
   };
   return (
-    <div className="bg-white p-5 mx-5 mt-[5rem] border border-gray-200 w-[20rem] rounded">
+    <div className="bg-white p-5 mx-5 mt-[5rem] border border-gray-200 w-[23rem] rounded">
       <h2 className="text-xl font-bold mb-5">Top Sellers</h2>
       <ul>
         {authors.map((author, index) => (
